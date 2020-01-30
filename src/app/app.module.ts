@@ -21,7 +21,7 @@ import { LayoutModule } from './layout/layout.module';
     LayoutModule,
     RoutesModule,
     environment.production ? [] : AkitaNgDevtools.forRoot(),
-    // AkitaNgRouterStoreModule.forRoot(),
+    AkitaNgRouterStoreModule.forRoot(),
     BrowserAnimationsModule
   ],
   providers: [{ provide: NG_ENTITY_SERVICE_CONFIG, useValue: { baseUrl: 'https://jsonplaceholder.typicode.com' }}],
