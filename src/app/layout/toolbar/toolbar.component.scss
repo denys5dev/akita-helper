@@ -1,19 +1,37 @@
 .toolbar {
+  font-weight: 300;
+  font-size: 16px;
+  position: fixed;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+  .toolbar-github {
     font-weight: 300;
-    font-size: 16px;
-    position: fixed;
-    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
-    .toolbar-github {
-        font-weight: 300;
-    }
-    &-icon {
-        vertical-align: middle;
-        margin-right: 6px;
-        padding-bottom: 6px;
-    }
+  }
+  &-icon {
+    vertical-align: middle;
+    margin-right: 6px;
+    padding-bottom: 6px;
+  }
 }
 
 .flex-spacer {
-    -webkit-box-flex: 1;
-            flex-grow: 1;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+
+.menu-btn {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.logo {
+  text-align: center;
+  vertical-align: middle;
+  display: inherit;
+  font-size: 12px;
+  letter-spacing: 2px;
+  &-img {
+    height: 40px;
+  }
 }

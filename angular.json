@@ -129,6 +129,7 @@
   },
   "defaultProject": "akita-d5-demo",
   "cli": {
-    "defaultCollection": "@datorama/akita"
+    "defaultCollection": "@datorama/akita",
+    "analytics": "9b8ac013-740b-4a1e-b4f9-bf44c9fd25f4"
   }
 }
