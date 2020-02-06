@@ -24,7 +24,7 @@ export class LayoutStore extends EntityStore<LayoutState> {
         
     }
 
-    updateUI( ui: LayoutUI['ui'] ) {
+    updateUI( ui: LayoutState['ui'] ) {
         this.update(state => ({
           ui: {
             ...state.ui,
